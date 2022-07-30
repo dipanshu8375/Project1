@@ -1,20 +1,9 @@
-body{
-    font-family:orbitron;
-}
-/* nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+body {
+    font-family: orbitron;
 }
 
-.list{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-} */
-
-nav{
+/* Navigation bar */
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,20 +12,23 @@ nav{
     left: 103px;
     top: 35px; */
 }
-.list{
+
+.list {
     display: flex;
     width: 455px;
     justify-content: space-around;
     align-items: center;
-    
+
 }
-.button-group{
+
+.button-group {
     display: flex;
     width: 200px;
     justify-content: start;
     justify-content: space-between;
 }
-.nav-button{
+
+.nav-button {
     width: 145px;
     height: 30px;
     background-color: white;
@@ -44,97 +36,112 @@ nav{
     border-radius: 20px;
 }
 
-.button-group{
+.button-group {
     display: flex;
 }
-ul li{
+
+ul li {
     list-style: none;
     /* margin: 0 30px; */
-} 
+}
 
-ul li:first-child{
+ul li:first-child {
     font-weight: bold;
     font-size: 20px;
 }
 
 
-.hero-container-right{
+.hero-container-right {
     position: absolute;
-    
     float: right;
     top: 210px;
     right: 190px;
     text-align: center;
-    
+
 }
-h1{
-font-size: 45px;
-font-stretch: expanded;
-letter-spacing: 2px;
+
+h1 {
+    font-size: 45px;
+    font-stretch: expanded;
+    letter-spacing: 2px;
 }
-.hero-img{
+
+.hero-img {
     position: absolute;
     top: 155px;
     width: 20px;
     height: auto;
     left: 104px;
 }
-.container{
+
+.container {
     margin: 5px;
     padding: 5px;
 }
-.square{
+
+.square {
     position: absolute;
     left: 174px;
     top: 290px;
 }
-.globe{
+
+.globe {
     position: absolute;
     right: 658px;
     top: 119px;
 }
-.star{
+
+.star {
     position: absolute;
     right: 108px;
     top: 159px;
 }
-p{
+
+p {
     position: absolute;
     top: 114px;
     width: 550px;
     right: 52px;
     font-family: supra-bold;
-    color:#716b6b;
+    color: #716b6b;
 }
-.imp-btn{
+
+.imp-btn {
     position: absolute;
     top: 240px;
     left: 141px;
-    
+
 }
-.footer{
-    position: absolute;
-    text-align: center;
-    top: 304px;
-    left: 164px;
-    color:#6c6767;
-}
-.button-email{
+
+/* Buttons */
+
+.button-email {
     border-radius: 8px;
     width: 180px;
     height: 33px;
     border: 1px solid black;
-font-family: orbitron;
-background-color: white;
-font-size: 18px;
-color:#3e3939;
+    font-family: orbitron;
+    background-color: white;
+    font-size: 18px;
+    color: #3e3939;
 }
-.button-join{
+
+.button-join {
     border-radius: 8px;
-    width: 102px;
+    width: 110px;
     height: 39px;
     background-color: black;
-color: white;
-font-family: orbitron;
-font-size: 15px;
+    color: white;
+    font-family: orbitron;
+    font-size: 15px;
+}
+
+/* footer section */
+
+.footer {
+    position: absolute;
+    text-align: center;
+    top: 304px;
+    left: 164px;
+    color: #6c6767;
 }
